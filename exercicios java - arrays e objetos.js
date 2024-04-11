@@ -45,4 +45,37 @@ console.log(soma);
 // Adicione dinamicamente a propriedade 
 // profissao ao objeto e defina o valor como "programador".
 
+const cidadao = {
+    nome: 'Lucas',
+    idade: 19
+};
+// Adicionando propriedade dinamicamente
+cidadao.profissao = 'Programador';
+console.log(pessoa); //só serve para printar a informação
+
+// Modificando propriedade dinamicamente
+cidadao.idade = 20;
+console.log(pessoa);
+
+//Exercício de Destruturação:   
+//Dado o objeto produto com as 
+//propriedades nome, 
+//preco e quantidade, 
+//use a desestruturação para extrair o 
+//nome e o preço do produto.
+
+const pessoa = {
+    nome: 'Carlos',
+    idade: 34,
+    cidade: 'carapicuiba the lands between the cu e o saco'
+    
+};
+
+// Destruturando objeto
+const { nome, idade } = pessoa;
+console.log(nome, idade); 
+//A destruturação é uma maneira de extrair 
+//valores de objetos e arrays e atribuí-los
+// a variáveis individuais.
+
 
